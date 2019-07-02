@@ -12,8 +12,9 @@ yarn global add slice2json-cli
 
 ```bash
 > slice2json
+Slice language to AST JSON compiler
 
-<file ...> [options]
+Usage: slice2json <file ...> [options]
 
 Options:
   --help         Show help                                             [boolean]

@@ -12,7 +12,7 @@ yargs
   .scriptName('Slice language to AST JSON compiler')
   .command(
     '*',
-    'Usage: <file ...> [options]',
+    'Usage: slice2json <file ...> [options]',
     argv => argv.options({
       'root-dir': {
         description: `Root dirs.
